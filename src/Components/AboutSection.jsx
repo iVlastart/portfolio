@@ -1,15 +1,13 @@
 import { File } from "lucide-react";
 import cvFile from '@/assets/Vašut-cv.pdf';
 import zivotopisFile from '@/assets/Vašut-životopis.pdf';
+import { Title } from "./Title";
 
 export const AboutSection = ()=>{
     return(
-        <section id="about" className=" py-24 px-4 relative">
+        <section id="about" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
-                <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-                    <span className="text-foreground">About</span>&nbsp;
-                    <span className="text-primary">Me</span>
-                </h2>
+                <Title part1='about' part2={'me'}/>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
