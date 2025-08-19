@@ -1,3 +1,7 @@
+import { File } from "lucide-react";
+import cvFile from '@/assets/Vašut-cv.pdf';
+import zivotopisFile from '@/assets/Vašut-životopis.pdf';
+
 export const AboutSection = ()=>{
     return(
         <section id="about" className=" py-24 px-4 relative">
@@ -23,8 +27,34 @@ export const AboutSection = ()=>{
                         </div>
                     </div>
 
-                    <div>
-                        
+                    <div className="grid grid-cols-1 gap-6">
+                        <a className="gradient-border p-6 card-hover hover:cursor-pointer" href={cvFile}
+                            download={'Vašut-cv.pdf'}>
+                            <div className="flex items-center gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <File className="h-6 w-6 text-primary"/>
+                                </div>
+                                <span className="text-left">
+                                    <h4 className="font-semibold text-lg">
+                                        Get My CV (English)
+                                    </h4>
+                                </span>
+                            </div>
+                        </a>
+
+                        <a className="gradient-border p-6 card-hover hover:cursor-pointer" href={zivotopisFile}
+                            download={'Vašut-životopis.pdf'}>
+                            <div className="flex items-center gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <File className="h-6 w-6 text-primary"/>
+                                </div>
+                                <span className="text-left">
+                                    <h4 className="font-semibold text-lg">
+                                        Get My CV (Czech)
+                                    </h4>
+                                </span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
