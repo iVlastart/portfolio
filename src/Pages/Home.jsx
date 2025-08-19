@@ -1,6 +1,8 @@
 import { StarBg } from "@/Components/StarBg";
 import { ThemeToggle } from "@/Components/ThemeToggle";
 import { Navbar } from "@/Components/Navbar";
+import { HeroSection } from "@/Components/HeroSection";
+import { AboutSection } from "@/Components/AboutSection";
 
 export const Home = ()=>{
     return(
@@ -10,7 +12,8 @@ export const Home = ()=>{
             <Navbar/>
 
             <main>
-                
+                <HeroSection/>
+                <AboutSection/>
             </main>
         </div>
     );
