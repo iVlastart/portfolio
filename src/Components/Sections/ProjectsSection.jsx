@@ -1,0 +1,77 @@
+import { Title } from "@/Components/partials/Title";
+import { ExternalLink, GithubIcon } from "lucide-react";
+
+const projects = [
+    {
+        id: 1,
+        title: 'LibreIo',
+        description: 'A web app where you can upload and share your videos with others',
+        img: '/projects/LibreIo.webp',
+        tags: ['Laravel', 'PHP', 'HTML', 'Tailwind CSS', 'JavaScript'],
+        github: 'https://github.com/iVlastart/LibreIo',
+        demo: '#'
+    }
+];
+
+export const ProjectsSection = ()=>{
+    return(
+        <section id="projects" className="py-24 px-4 relative">
+            <div className="container mx-auto max-w-5xl">
+                <Title part1='Featured' part2='Projects'/>
+
+                <p className="text-center mb-12 max-w-2xl mx-auto">
+                    Here are some of personal projects. More projects coming in in the future...
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {
+                        projects.map((project, key)=>(
+                            <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs
+                                    card-hover">
+                                <div className="h-48 overflow-hidden">
+                                    <img src={project.img} alt={project.title} className="w-full h-full
+                                        object-cover transition-transform duration-500 group-hover:scale-110" />
+                                </div>
+
+                                <div className="p-6">
+                                    <div className="flex flex-wrap gap-2 mb-4">
+                                        {project.tags.map(tag=>(
+                                            <span className="px-2 py-1 text-xs font-medium rounded-full
+                                                    text-foreground border border-gray-800">
+                                                {tag}
+                                            </span>
+                                        ))}
+                                    </div>
+                                
+
+                                    <h3 className="text-xl font-semibold mb-2">
+                                        {project.title}
+                                    </h3>
+
+                                    <p className="text-foreground text-sm mb-4">
+                                        {project.description}
+                                    </p>
+
+                                    <div className="flex justify-between items-center">
+                                        <div className="flex space-x-3">
+                                            <a href={project.demo} className="text-foreground/80
+                                                    hover:text-primary transition-colors duration-300"
+                                                    target="_blank">
+                                                <ExternalLink size={20}/>
+                                            </a>
+                                            <a href={project.github} className="text-foreground/80
+                                                    hover:text-primary transition-colors duration-300"
+                                                    target="_blank">
+                                                <GithubIcon size={20}/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))
+                    }
+                </div>
+            </div>
+        </section>
+    )
+};

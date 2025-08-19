@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { cn } from '@/lib/utils';
-import { Title } from "./Title";
+import { Title } from "@/Components/partials/Title";
 const skills = [
     /* Frontend */
     {name: 'HTML/CSS', level: 90, category: 'frontend'},

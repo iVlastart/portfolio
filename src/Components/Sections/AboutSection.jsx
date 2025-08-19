@@ -1,7 +1,7 @@
 import { File } from "lucide-react";
 import cvFile from '@/assets/Vašut-cv.pdf';
 import zivotopisFile from '@/assets/Vašut-životopis.pdf';
-import { Title } from "./Title";
+import { Title } from "@/Components/partials/Title";
 
 export const AboutSection = ()=>{
     return(

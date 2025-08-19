@@ -1,10 +1,10 @@
 import { StarBg } from "@/Components/StarBg";
 import { ThemeToggle } from "@/Components/ThemeToggle";
 import { Navbar } from "@/Components/Navbar";
-import { HeroSection } from "@/Components/HeroSection";
-import { AboutSection } from "@/Components/AboutSection";
-import { SkillsSection } from "@/Components/SkillsSection";
-import { ProjectsSection } from "@/Components/ProjectsSection";
+import { HeroSection } from "@/Components/Sections/HeroSection";
+import { AboutSection } from "@/Components/Sections/AboutSection";
+import { SkillsSection } from "@/Components/Sections/SkillsSection";
+import { ProjectsSection } from "@/Components/Sections/ProjectsSection";
 
 export const Home = ()=>{
     return(
