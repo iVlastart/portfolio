@@ -10,6 +10,15 @@ const projects = [
         tags: ['Laravel', 'PHP', 'HTML', 'Tailwind CSS', 'JavaScript'],
         github: 'https://github.com/iVlastart/LibreIo',
         demo: '#'
+    },
+    {
+        id: 2,
+        title: 'Portfolio',
+        description: 'My personal portfolio',
+        img: '/projects/portfolio.webp',
+        tags: ['React', 'HTML', 'CSS', 'Tailwind CSS', 'JavaScript'],
+        github: 'https://github.com/iVlastart/portfolio',
+        demo: 'https://vlastavasutportfolio.vercel.app/'
     }
 ];
 
