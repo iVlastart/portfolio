@@ -1,6 +1,7 @@
 import { Title } from "@/Components/partials/Title";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { ContactInfo } from "../partials/ContactInfo";
+import { ContactInfo } from "@/Components/partials/ContactInfo";
+import { ContactSocials } from "@/Components/partials/ContactSocials";
 
 export const ContactSection = ()=>{
     return(
@@ -21,6 +22,14 @@ export const ContactSection = ()=>{
 
                         
                         <ContactInfo/>
+
+                        <ContactSocials/>
+                    </div>
+
+                    <div className="bg-card p-8 rounded-lg shadow-xs">
+                        <h3>
+                            
+                        </h3>
                     </div>
                 </div>
             </div>
