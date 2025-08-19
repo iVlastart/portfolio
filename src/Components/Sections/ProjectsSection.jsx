@@ -1,5 +1,5 @@
 import { Title } from "@/Components/partials/Title";
-import { ExternalLink, GithubIcon } from "lucide-react";
+import { ArrowRight, ExternalLink, GithubIcon } from "lucide-react";
 
 const projects = [
     {
@@ -35,8 +35,8 @@ export const ProjectsSection = ()=>{
 
                                 <div className="p-6">
                                     <div className="flex flex-wrap gap-2 mb-4">
-                                        {project.tags.map(tag=>(
-                                            <span className="px-2 py-1 text-xs font-medium rounded-full
+                                        {project.tags.map((tag, key)=>(
+                                            <span key={key} className="px-2 py-1 text-xs font-medium rounded-full
                                                     text-foreground border border-gray-800">
                                                 {tag}
                                             </span>
@@ -70,6 +70,13 @@ export const ProjectsSection = ()=>{
                             </div>
                         ))
                     }
+                </div>
+
+                <div className="text-center mt-12">
+                    <a href="https://github.com/iVlastart" target="_blank" className="cosmic-btn w-fit 
+                            flex items-center mx-auto gap-2">
+                        Check My GitHub <ArrowRight size={16}/>
+                    </a>
                 </div>
             </div>
         </section>
