@@ -19,8 +19,8 @@ const skills = [
     {name: 'VS Code', level: 95, category: 'tools'},
     
     /* Frameworks */
-    {name: 'React', level: 65, category: 'framework'},
-    {name: 'Laravel', level: 75, category: 'framework'},
+    {name: 'React', level: 65, category: 'frameworks'},
+    {name: 'Laravel', level: 75, category: 'frameworks'},
 ];
 
 const categories = ['all', 'frontend', 'backend', 'tools', 'frameworks'];
