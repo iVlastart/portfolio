@@ -4,7 +4,7 @@ import { ArrowRight, ExternalLink, GithubIcon } from "lucide-react";
 const projects = [
     {
         id: 1,
-        title: 'LibreIo',
+        title: 'LibreIo (Coming soon)',
         description: 'A web app where you can upload and share your videos with others',
         img: '/projects/LibreIo.webp',
         tags: ['Laravel', 'PHP', 'HTML', 'Tailwind CSS', 'JavaScript'],
