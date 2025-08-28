@@ -11,6 +11,7 @@ const skills = [
 
     /* Backend */
     {name: 'PHP', level:95, category: 'backend'},
+    {name: 'Nodejs', level:70, category: 'backend'},
     
     
 
@@ -21,6 +22,7 @@ const skills = [
     /* Frameworks */
     {name: 'React', level: 65, category: 'frameworks'},
     {name: 'Laravel', level: 75, category: 'frameworks'},
+    
 ];
 
 const categories = ['all', 'frontend', 'backend', 'tools', 'frameworks'];
