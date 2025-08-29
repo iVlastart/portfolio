@@ -20,15 +20,6 @@ const projects = [
         github: 'https://github.com/iVlastart/portfolio',
         demo: 'https://vlastavasutportfolio.vercel.app/'
     },
-    {
-        id: 3,
-        title: 'Cutify',
-        description: 'Web based video editor (not finished yet!)',
-        img: '/projects/portfolio.webp',
-        tags: ['React', 'HTML', 'Tailwind CSS', 'JavaScript', 'Nodejs'],
-        github: 'https://github.com/iVlastart/Cutify',
-        demo: '#'
-    }
 ];
 
 export const ProjectsSection = ()=>{
