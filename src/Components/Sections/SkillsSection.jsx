@@ -11,7 +11,6 @@ const skills = [
 
     /* Backend */
     {name: 'PHP', level:95, category: 'backend'},
-    {name: 'Nodejs', level:70, category: 'backend'},
     
     
 
