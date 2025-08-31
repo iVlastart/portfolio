@@ -12,12 +12,6 @@ export const ContactSocials = ()=>{
                     <a href="https://www.linkedin.com/in/vlasta-vasut/" target="_blank">
                         <Linkedin/>
                     </a>
-                    <a href="https://x.com/iVlastart" target="_blank">
-                        <Twitter/>
-                    </a>
-                    <a href="https://www.instagram.com/ivlastart/" target="_blank">
-                        <Instagram/>
-                    </a>
                 </div>
             </div>
         </>
