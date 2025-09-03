@@ -20,6 +20,15 @@ const projects = [
         github: 'https://github.com/iVlastart/portfolio',
         demo: 'https://vlastavasutportfolio.vercel.app/'
     },
+    {
+        id: 3,
+        title: 'Wordle',
+        description: 'Wordle app',
+        img: '/projects/Wordle.webp',
+        tags: ['React', 'HTML', 'Tailwind CSS', 'TypeScript', 'Node.js', 'JavaScript'],
+        github: 'https://github.com/iVlastart/Wordle',
+        demo: 'https://wordleprojectapp.vercel.app/'
+    },
 ];
 
 export const ProjectsSection = ()=>{
