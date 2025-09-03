@@ -23,7 +23,7 @@ const projects = [
     {
         id: 3,
         title: 'Wordle',
-        description: 'Wordle app',
+        description: 'An app where you have 5 tries to guess the word',
         img: '/projects/Wordle.webp',
         tags: ['React', 'HTML', 'Tailwind CSS', 'TypeScript', 'Node.js', 'JavaScript'],
         github: 'https://github.com/iVlastart/Wordle',
