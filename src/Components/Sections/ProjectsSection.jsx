@@ -27,7 +27,16 @@ const projects = [
         img: '/projects/Wordle.webp',
         tags: ['React', 'HTML', 'Tailwind CSS', 'TypeScript', 'Node.js', 'JavaScript'],
         github: 'https://github.com/iVlastart/Wordle',
-        demo: 'https://wordleprojectapp.vercel.app/'
+        demo: '#'
+    },
+    {
+        id: 4,
+        title: 'QBot',
+        description: 'A discord bot that asks you a random question. Good for testing your general knowledge',
+        img: '/projects/QBot.webp',
+        tags: ['Node.js', 'JavaScript'],
+        github: 'https://github.com/iVlastart/QBot',
+        demo: '#'
     },
 ];
 
