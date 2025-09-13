@@ -38,6 +38,15 @@ const projects = [
         github: 'https://github.com/iVlastart/QBot',
         demo: '#'
     },
+    {
+        id: 5,
+        title: 'Mouse Clicker',
+        description: 'A game where you click a mouse',
+        img: '/projects/MouseClicker.webp',
+        tags: ['React', 'HTML', 'Tailwind CSS', 'TypeScript'],
+        github: 'https://github.com/iVlastart/MouseClicker',
+        demo: 'https://mouseclicker.vercel.app/'
+    },
 ];
 
 export const ProjectsSection = ()=>{
