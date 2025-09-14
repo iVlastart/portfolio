@@ -27,7 +27,7 @@ const projects = [
         img: '/projects/Wordle.webp',
         tags: ['React', 'HTML', 'Tailwind CSS', 'TypeScript', 'Node.js', 'JavaScript'],
         github: 'https://github.com/iVlastart/Wordle',
-        demo: '#'
+        demo: 'https://wordleprojectapp.vercel.app/'
     },
     {
         id: 4,
